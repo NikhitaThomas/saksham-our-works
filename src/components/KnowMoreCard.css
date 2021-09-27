@@ -1,6 +1,8 @@
 .individual-card{
     flex: 6;
-    border: 1px solid gray;
+    border: 1px solid white;
+    background-color: rgb(39, 9, 95);
+    color: white;
     margin: 5%;
     padding: 30px;
     border-radius: 10px;
@@ -8,5 +10,5 @@
 
 .individual-card:hover{
     color: white;
-    background-color: #274046;
+    background-color: rgb(151, 119, 211);
 }

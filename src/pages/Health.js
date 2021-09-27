@@ -17,7 +17,7 @@ const Health = () => {
     return (
         <div className="header-quote">
             <Quote quote='“The purpose of our lives is to be happy.” — Dalai Lama' />
-            <Header content={text} />
+            <Header title="Health" content={text} />
             <Story
                 title={title}
                 image={image}

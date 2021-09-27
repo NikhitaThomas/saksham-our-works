@@ -1,6 +1,6 @@
 import './KnowMoreCard.css'
 
-const KnowMoreCard = ({ heading, content }) => {
+const KnowMoreCard = ({ heading, content, color }) => {
     return (
         <div className="individual-card">
             <div className="card-content">
