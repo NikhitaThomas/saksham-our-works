@@ -12,14 +12,17 @@ const WhySaksham = () => {
             </div>
             <div className="helpSomeoneEveryday">
                 <h2>Help Someone Every Day</h2>
-                <img src="https://citytoday.news/wp-content/uploads/2017/10/page8.3.jpg" />
-                <p>Every day, try to help someone who can’t reciprocate your kindness even if it is something small. It is our responsibility to do what we can. As you figure out how to help others it will force you to start thinking in a positive way.
+                <div className="helpSomeoneEverydaySection">
+                    <img src="https://citytoday.news/wp-content/uploads/2017/10/page8.3.jpg" />
+                    <p>Every day, try to help someone who can’t reciprocate your kindness even if it is something small. It is our responsibility to do what we can. As you figure out how to help others it will force you to start thinking in a positive way.
 
-                The whole mentality revolves around “Serve Humans, Serve Humanity”. So whenever you want to help someone, just look around for the ones who needs the bare minimum and just spread smiles.
+                    The whole mentality revolves around “Serve Humans, Serve Humanity”. So whenever you want to help someone, just look around for the ones who needs the bare minimum and just spread smiles.
 
-                Namita Gaur
-                Founder
+                    Namita Gaur
+                    Founder
                     </p>
+                </div>
+
             </div>
             <div className="sakshamObjective">
                 <h2>Who We Are</h2>

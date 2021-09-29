@@ -39,8 +39,32 @@ h2{
     color: whitesmoke;
 }
 
+.helpSomeoneEverydaySection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.helpSomeoneEverydaySection > img{
+    order: 2;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.helpSomeoneEverydaySection > p{
+    padding: 5%;
+}
+
+/* .helpSomeoneEveryday > img{
+    transform: scale(0.7);
+} */
+
 .sakshamObjective{
     padding: 10% 10%;
+}
+
+.sakshamObjective > img{
+    transform: scale(0.7);
 }
 
 .whoweareimage{
@@ -55,5 +79,7 @@ h2{
     .sakshampageheaderimage{
         grid-row: 2;
     }
-    
+    .helpSomeoneEverydaySection{
+        display: unset;
+    }
 }
