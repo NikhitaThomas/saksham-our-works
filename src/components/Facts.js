@@ -1,7 +1,7 @@
 import './Facts.css'
 import FactItem from './FactItem'
 
-const Facts = ({ header, image }) => {
+const Facts = ({ header, image, facts }) => {
     return (
         <>
             <h3>{header}</h3>
@@ -11,8 +11,9 @@ const Facts = ({ header, image }) => {
                 </div>
                 <div className="facts-text">
                     <ul>
-                        <li><FactItem fact='27 crore people in 64 districts across 13 states don’t have a single blood bank' /></li>
-                        <li><FactItem fact='Just 1833 people are there per one government hospital bed' /></li>
+                        {facts.map(fact => (
+                            <li>{fact}</li>
+                        ))}
                     </ul>
                 </div>
             </div>

@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 7% 5%;
-    padding: 5% 0;
+    padding: 5% 5%;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -18,9 +18,8 @@
     line-height: 25px;
 }
 
-.title{
+.story-title{
     line-height: 50px;
-    margin-bottom: 50px;
 }
 
 .story-image{
@@ -39,6 +38,7 @@
     }
     .story-text{
         order: 2;
+        padding: 10% 10% 0;
     }
 
     .story-image{
