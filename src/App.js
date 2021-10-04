@@ -22,10 +22,17 @@ function App() {
   ]
   return (
     <div className="App">
-      <Health quote={quote} text={text} image={image} story={story} facts={facts} title={title} />
+      {/* <Health 
+      quote={quote} 
+      text={text} 
+      image={image} 
+      story={story} 
+      facts={facts} 
+      title={title} 
+      /> */}
       {/* <Why_Saksham /> */}
       {/* <ContactUsForm /> */}
-      {/* <SchoolForm /> */}
+      <SchoolForm />
     </div>
   );
 }
